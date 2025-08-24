@@ -32,7 +32,7 @@ jobs:
        - name: list files
          run: 'ls -al'
 
-       - name: Install dependencies
+       - name: Install Dependencies
          run: 'mvn compile'
          
        - name: Build application
